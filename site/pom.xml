@@ -55,11 +55,11 @@
 
   <repositories>
     <repository>
-      <id>amalto-release-repo</id>
-      <name>Amalto Releases Repository</name>
-      <url>http://nexus3.amalto.com/repository/releases</url>
+      <id>apache.snapshots</id>
+      <name>Apache Snapshot Repository</name>
+      <url>https://repository.apache.org/snapshots</url>
       <releases>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
       </releases>
     </repository>
   </repositories>
