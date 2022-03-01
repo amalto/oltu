@@ -55,7 +55,7 @@ public final class ClaimsSet extends CustomizableEntity {
     /**
      * The {@code nbf} JWT Claims Set parameter.
      */
-    private final String notBefore;
+    private final long notBefore;
 
     /**
      * The {@code iat} JWT Claims Set parameter.
@@ -76,7 +76,7 @@ public final class ClaimsSet extends CustomizableEntity {
               String subject,
               List<String> audiences,
               long expirationTime,
-              String notBefore,
+              long notBefore,
               long issuedAt,
               String jwdId,
               String type,
@@ -146,7 +146,7 @@ public final class ClaimsSet extends CustomizableEntity {
      *
      * @return the {@code nbf} JWT Claims Set parameter.
      */
-    public String getNotBefore() {
+    public long getNotBefore() {
         return notBefore;
     }
 
@@ -179,7 +179,7 @@ public final class ClaimsSet extends CustomizableEntity {
 
     @Override
     public String toString() {
-        return format("{\"iss\": \"%s\", \"sub\": \"%s\", \"aud\": %s, \"exp\": %s, \"nbf\": \"%s\", \"iat\": %s, \"jti\": \"%s\", \"typ\": \"%s\" }",
+        return format("{\"iss\": \"%s\", \"sub\": \"%s\", \"aud\": %s, \"exp\": %s, \"nbf\": \"%d\", \"iat\": %s, \"jti\": \"%s\", \"typ\": \"%s\" }",
                       issuer, subject, formatAudiences(), expirationTime, notBefore, issuedAt, jwdId, type, super.toString());
     }
 

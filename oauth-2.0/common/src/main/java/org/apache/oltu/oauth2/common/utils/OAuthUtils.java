@@ -284,12 +284,12 @@ public final class OAuthUtils {
                 }
 
                 if (paramsTypes.length == 0 && paramValues.length == 0) {
-                    return clazz.newInstance();
+                    return clazz.getDeclaredConstructor().newInstance();
                 }
                 Constructor<T> clazzConstructor = clazz.getConstructor(paramsTypes);
                 return clazzConstructor.newInstance(paramValues);
             }
-            return clazz.newInstance();
+            return clazz.getDeclaredConstructor().newInstance();
 
         } catch (NoSuchMethodException e) {
             throw new OAuthSystemException(e);

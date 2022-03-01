@@ -37,7 +37,7 @@
     <module>oauth-2.0</module>
     <module>openid-connect</module>
     <module>jose</module>
-    <module>demos</module>
+    <!-- <module>demos</module> -->
   </modules>
 
   <build>

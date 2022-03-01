@@ -74,6 +74,7 @@ public final class OAuth {
     public static final String OAUTH_REFRESH_TOKEN = "refresh_token";
     
     public static final String OAUTH_TOKEN_TYPE = "token_type";
+    public static final String OAUTH_TOKEN_TYPE_HINT = "token_type_hint";
 
     public static final String OAUTH_TOKEN = "oauth_token";
 

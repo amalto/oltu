@@ -42,7 +42,7 @@ final class JWTClaimsSetParser extends CustomizableEntityReader<JWT, JWT.Builder
         } else if (JWT_ID.equals(key)) {
             getBuilder().setClaimsSetJwdId(String.valueOf(value));
         } else if (NOT_BEFORE.equals(key)) {
-            getBuilder().setClaimsSetNotBefore(String.valueOf(value));
+            getBuilder().setClaimsSetNotBefore(((Integer) value).longValue());
         } else if (SUBJECT.equals(key)) {
             getBuilder().setClaimsSetSubject(String.valueOf(value));
         } else if (TYPE.equals(key)) {

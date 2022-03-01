@@ -156,7 +156,7 @@ public class JWT {
         /**
          * The {@code nbf} JWT Claims Set parameter.
          */
-        private String claimsSetNotBefore;
+        private long claimsSetNotBefore;
 
         /**
          * The {@code iat} JWT Claims Set parameter.
@@ -304,7 +304,7 @@ public class JWT {
          * @param claimsSetNotBefore the JWT Claims Set {@code nbf}.
          * @return this builder instance.
          */
-        public Builder setClaimsSetNotBefore(String claimsSetNotBefore) {
+        public Builder setClaimsSetNotBefore(long claimsSetNotBefore) {
             this.claimsSetNotBefore = claimsSetNotBefore;
             return this;
         }

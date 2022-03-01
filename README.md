@@ -7,7 +7,7 @@ Fixes
 =====
 1. Feb 2016 - changed JWT `nbf` to be numeric
 
-
 Enhancements
 ============
-2. Feb 2022 - ???
+1. Single version for all modules: `-SNAPSHPOT` -> `-amalto` allows release 
+2. Feb 2022 - Added OAuthRevokeRequest to provide support for: https://datatracker.ietf.org/doc/html/rfc7009
