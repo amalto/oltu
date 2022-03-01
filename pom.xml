@@ -31,6 +31,17 @@
 
   <name>Apache Oltu - Reactor</name>
 
+  <repositories>
+    <repository>
+      <id>amalto-release-repo</id>
+      <name>Amalto Releases Repository</name>
+      <url>http://nexus3.amalto.com/repository/releases</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </repository>
+  </repositories>
+
   <modules>
     <module>parent</module>
     <module>commons</module>
