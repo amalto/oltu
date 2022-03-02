@@ -21,13 +21,13 @@
   <parent>
     <groupId>org.apache.oltu</groupId>
     <artifactId>org.apache.oltu.parent</artifactId>
-    <version>5-SNAPSHOT</version>
+    <version>5-amalto</version>
     <relativePath>../parent</relativePath>
   </parent>
 
   <groupId>org.apache.oltu.commons</groupId>
   <artifactId>org.apache.oltu.commons.parent</artifactId>
-  <version>3-SNAPSHOT</version>
+  <version>3-amalto</version>
   <packaging>pom</packaging>
 
   <name>Apache Oltu - Commons</name>

@@ -21,11 +21,11 @@
   <parent>
     <groupId>org.apache.oltu.jose</groupId>
     <artifactId>org.apache.oltu.jose.parent</artifactId>
-    <version>2-SNAPSHOT</version>
+    <version>2-amalto</version>
   </parent>
 
   <artifactId>org.apache.oltu.jose.jwe</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0-amalto</version>
   <packaging>bundle</packaging>
 
   <name>Apache Oltu - JOSE - JWE</name>

@@ -24,12 +24,12 @@
   <parent>
     <groupId>org.apache.oltu</groupId>
     <artifactId>org.apache.oltu.parent</artifactId>
-    <version>5-SNAPSHOT</version>
+    <version>5-amalto</version>
     <relativePath>../parent</relativePath>
   </parent>
 
   <artifactId>org.apache.oltu.site</artifactId>
-  <version>1-SNAPSHOT</version>
+  <version>1-amalto</version>
   <packaging>pom</packaging>
 
   <name>Apache Oltu</name>
