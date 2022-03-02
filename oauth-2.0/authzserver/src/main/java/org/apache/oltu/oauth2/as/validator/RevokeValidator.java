@@ -10,8 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 public class RevokeValidator extends AbstractValidator<HttpServletRequest> {
 
     public RevokeValidator() {
-        requiredParams.add(OAuth.OAUTH_TOKEN);
-        requiredParams.add(OAuth.OAUTH_TOKEN_TYPE_HINT);
+        requiredParams.add(OAuth.OAUTH_REVOKE_TOKEN);
 
         enforceClientAuthentication = true;
     }
@@ -26,6 +25,6 @@ public class RevokeValidator extends AbstractValidator<HttpServletRequest> {
     }
 
     @Override
-    public void validateContentType(HttpServletRequest request) throws OAuthProblemException {
+    public void validateContentType(HttpServletRequest request) {
     }
 }

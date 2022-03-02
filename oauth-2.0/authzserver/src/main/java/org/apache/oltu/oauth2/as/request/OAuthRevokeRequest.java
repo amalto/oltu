@@ -56,7 +56,7 @@ public class OAuthRevokeRequest extends OAuthRequest {
     }
 
     public String getToken() {
-        return getParam(OAuth.OAUTH_TOKEN);
+        return getParam(OAuth.OAUTH_REVOKE_TOKEN);
     }
 
     public String getTokenTypeHint() {
