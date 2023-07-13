@@ -33,7 +33,8 @@ public enum GrantType {
     PASSWORD("password"),
     REFRESH_TOKEN("refresh_token"),
     CLIENT_CREDENTIALS("client_credentials"),
-    JWT_BEARER("urn:ietf:params:oauth:grant-type:jwt-bearer");
+    JWT_BEARER("urn:ietf:params:oauth:grant-type:jwt-bearer"),
+    TOKEN_EXCHANGE("urn:ietf:params:oauth:grant-type:token-exchange");
 
     private String grantType;
 
