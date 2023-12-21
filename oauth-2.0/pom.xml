@@ -27,7 +27,7 @@
 
   <groupId>org.apache.oltu.oauth2</groupId>
   <artifactId>org.apache.oltu.oauth2.parent</artifactId>
-  <version>1.0.4-amalto</version>
+  <version>1.0.5-amalto</version>
   <packaging>pom</packaging>
 
   <name>Apache Oltu - OAuth 2.0</name>

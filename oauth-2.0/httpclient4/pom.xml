@@ -20,7 +20,7 @@
   <parent>
     <groupId>org.apache.oltu.oauth2</groupId>
     <artifactId>org.apache.oltu.oauth2.parent</artifactId>
-     <version>1.0.4-amalto</version>
+     <version>1.0.5-amalto</version>
   </parent>
 
   <artifactId>org.apache.oltu.oauth2.httpclient4</artifactId>
