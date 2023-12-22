@@ -47,6 +47,20 @@
       <artifactId>org.apache.oltu.commons.json</artifactId>
       <version>1.0.5-amalto</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.geronimo.specs</groupId>
+      <artifactId>geronimo-json_1.1_spec</artifactId>
+      <version>1.5</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.johnzon</groupId>
+      <artifactId>johnzon-jsonb</artifactId>
+      <version>1.2.21</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 
 </project>
